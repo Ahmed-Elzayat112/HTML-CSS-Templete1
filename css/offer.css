@@ -1,0 +1,40 @@
+
+/* offer */
+
+.offer-content{
+  overflow: hidden;
+}
+
+.offer-item{
+  width: 30%;
+  border: 1px solid #e8e8e8;
+  padding: 30px 20px 30px 70px;
+  float: left;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.offer-item.mg{
+  margin: 0 5%;
+}
+
+.offer-item-icon{
+  position: absolute;
+  top: 33px;
+  left: 25px;
+  color: #6195ff;
+}
+
+.offer-item-title{
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  transition: color 0.5s;
+}
+
+.offer-item-desc{
+  color: #999;
+}
+
+.offer-item:hover .offer-item-title{
+  color: #fff;
+}

@@ -1,0 +1,47 @@
+
+/* About */
+.about-section {
+  overflow: hidden;
+}
+
+.about-item {
+  width: 30%;
+  height: 270px;
+  text-align: center;
+  padding: 40px 15px;
+  border: 1px solid #e8e8e8;
+  float: left;
+}
+
+.about-item.mg {
+  margin: 0 5% 0 5%;
+}
+
+.about-item-icon {
+  color: #6195ff;
+  margin-bottom: 10px;
+}
+
+.about-item-title {
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  transition: color 0.5s;
+}
+
+.about-item-desc {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  color: #999;
+}
+
+.about-item-link {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #6195ff;
+}
+
+.about-item:hover .about-item-title {
+  color: #fff;
+}
+
+/* End About */

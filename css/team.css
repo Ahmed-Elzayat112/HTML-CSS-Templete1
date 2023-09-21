@@ -1,0 +1,86 @@
+
+/* team */
+
+.team-content{
+  overflow: hidden;
+}
+
+.team-item{
+  width: 30%;
+  float: left;
+  background: #e8e8e8;
+  padding: 40px 10px;
+  text-align: center;
+}
+
+.team-item.mg{
+  margin: 0 5%;
+}
+
+.team-item-img{
+  position: relative;
+  width: 90%;
+  margin: 0 auto 20px auto;
+}
+
+.team-item-img img{
+  width: 100%;
+}
+
+.team-item-social{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s , visibility 0.5s;
+}
+
+.team-item-social a{
+  display: block;
+  background-color: #6195ff;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+}
+
+.team-item-social a i{
+  line-height: 40px;
+}
+
+.team-item:hover .team-item-social{
+  opacity: 1;
+  visibility: visible;
+}
+
+.team-item-name{
+  color: #222;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+  transition: color 0.5s;
+}
+
+.team-item-job{
+  color: #999;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: color 0.5s;
+}
+
+.team-item.tb-effect{
+  z-index: 1;
+}
+
+.team-item:hover .team-item-name{
+  color: #fff;
+}
+
+.team-item:hover .team-item-job{
+  color: #6195ff;
+}
+/* End team */
+

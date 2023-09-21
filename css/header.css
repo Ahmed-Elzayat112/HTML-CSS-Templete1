@@ -1,0 +1,80 @@
+/* header */
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(0,0,0,0.4);
+}
+
+
+.header .logo {
+  width: 40%;
+  float: left;
+}
+.header .logo img {
+  width: 90px;
+}
+
+.header .navbar {
+  width: 60%;
+  float: left;
+  /* padding-top: 15px; */
+  text-align: right;
+}
+
+.header .navbar li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.header .navbar li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 10px;
+  font-size: 15px;
+  display: block;
+}
+
+.header .navbar > li > a:after,
+.header .navbar > li > a.active:after {
+  content: "";
+  display: block;
+  margin-top: 2px;
+  background-color: #6195ff;
+  height: 2px;
+  transition: width 0.5s;
+}
+.header .navbar > li > a:after {
+  width: 0;
+}
+
+.header .navbar > li > a.active:after {
+  width: 100%;
+}
+.header .navbar > li > a:hover:after {
+  width: 100%;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  background-color: #6195ff;
+  width: 92px;
+  text-align: center;
+  left: -38%;
+  top: 80%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s;
+}
+
+.dropdown:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* end-header */

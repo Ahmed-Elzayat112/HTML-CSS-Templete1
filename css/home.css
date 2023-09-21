@@ -1,0 +1,51 @@
+
+/* Home */
+
+.Home {
+  height: 100vh;
+  background-image: url(../images/background1.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.Home-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 65%;
+}
+
+.Home-content h1 {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+.Home-desc {
+  color: #fff;
+  margin: 20px 0;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+
+.Home .btn {
+  width: 170px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 0;
+}
+.Home .btn-started {
+  margin-right: 10px;
+  background-color: #fff;
+}
+
+.Home .btn-learn {
+  background-color: #6195ff;
+  color: #fff;
+}
+
+/* End Home */

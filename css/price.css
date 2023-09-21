@@ -1,0 +1,70 @@
+
+/* price */
+.price-content{
+  overflow: hidden;
+}
+
+.price-item{
+  width: 30%;
+  float: left;
+  padding: 30px 0px;
+  border: 1px solid #e8e8e8;
+  text-align: center;
+}
+
+.price-item.mg{
+  margin: 0 5%;
+}
+
+.price-item-title{
+  text-transform: uppercase;
+  color: #999;
+  transition: color 0.5s;
+}
+
+.price-item-prices{
+  width: 110px;
+  height: 110px;
+  border: 2px solid #6195ff;
+  border-radius: 50%;
+  padding: 20px 0px;
+  margin: 20px auto;
+  transition: color 0.5s;
+}
+
+.price-item-prices-dollar{
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+
+.price-item-prices-month{
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.price-item-list{
+  list-style: none;
+  line-height: 1.6;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.price-item-btn{
+  border: 2px solid #6195ff;
+  background: none;
+  text-transform: capitalize;
+  padding: 10px 25px;
+  color: #6195ff;
+  cursor: pointer;
+}
+
+.price-item:hover .price-item-title{
+  color: #6195ff;
+}
+
+.price-item:hover .price-item-prices{
+  color: #fff;
+}
+
+/* End price */
